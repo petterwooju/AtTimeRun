@@ -15,20 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:text="Button"
-            android:layout_width="218dp"
-            android:layout_height="53dp"
-            android:id="@+id/button7"
-            android:layout_marginTop="16dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/guidelineTop1"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
-            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp" />
-
         <android.support.constraint.Guideline
             android:layout_width="wrap_content"
             android:layout_height="479dp"
@@ -91,6 +77,75 @@
             tools:layout_editor_absoluteY="479dp"
             tools:layout_editor_absoluteX="0dp"
             app:layout_constraintGuide_percent="1.0"/>
+
+        <Button
+            android:text="학습시키기"
+            android:layout_width="218dp"
+            android:layout_height="53dp"
+            android:id="@+id/button1"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineTop1"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
+            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:text="실행시키기"
+            android:layout_height="57dp"
+            android:id="@+id/button2"
+            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
+            app:layout_constraintTop_toTopOf="@+id/guidelineTop1"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineTop2"
+            android:layout_marginBottom="8dp"
+            android:layout_width="218dp" />
+
+        <Button
+            android:text="학습시키기"
+            android:layout_width="218dp"
+            android:layout_height="53dp"
+            android:id="@+id/button3"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineTop1"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
+            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:text="목록"
+            android:layout_width="218dp"
+            android:layout_height="57dp"
+            android:id="@+id/button4"
+            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
+            app:layout_constraintTop_toTopOf="@+id/guidelineTop3"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineTop4"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <Button
+            android:text="종료"
+            android:layout_width="218dp"
+            android:layout_height="57dp"
+            android:id="@+id/button5"
+            app:layout_constraintRight_toLeftOf="@+id/guidelineLeft1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guidelineRight1"
+            app:layout_constraintTop_toTopOf="@+id/guidelineTop2"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineTop3"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.47" />
 
     </android.support.constraint.ConstraintLayout>
 
